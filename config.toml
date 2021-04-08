@@ -1,7 +1,7 @@
 baseURL = "https://rickseven.com"
 title   = "Rickseven.com"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+theme = "hugo-theme"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
