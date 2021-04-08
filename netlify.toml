@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "hugo --gc --minify --themesDir ../themes/hello-friend-ng"
+  command = "hugo --gc --minify --themesDir ./themes/hello-friend-ng/.."
   
 [build.environment]
   HUGO_VERSION = "0.81.0"
