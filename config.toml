@@ -1,4 +1,4 @@
-baseURL = "https://rickseven.com"
+baseURL = "https://rickseven.netlify.app"
 title   = "Rickseven.com"
 languageCode = "en-us"
 theme = "hugo-theme"
