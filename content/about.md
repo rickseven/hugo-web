@@ -6,8 +6,10 @@ title = "About"
 name = "Moh Eric"
 
 +++
-Hi Guys, my name is Moh Eric. I'm freelance software developer and I'm passionate about leading software development that is concerned with clean code and design patterns. Currently, I helping build things @ PayDinar (Find on Google Play).
+Hello! I'm Moh Eric, software developer. 
 
-Rickseven.com is my personal blog to sharing knowladge about coding and programming.
+Currently, I helping build things @ PayDinar (Find on Google Play).
 
-Please contact me if you want to build a website or application. Lets make something awesome together 🙂.
+Rickseven.com is my personal website about coding and programming. I share what I learn [**here on my blog**](https://rickseven.netlify.app/posts).
+
+You’re most welcome to [**💌 say hello**](mailto:maseric7@gmail.com). Lets make something awesome together 🙂.
