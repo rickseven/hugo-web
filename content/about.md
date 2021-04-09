@@ -10,4 +10,4 @@ Hi Guys, my name is Moh Eric. I'm freelance software developer and I'm passionat
 
 Rickseven.com is my personal blog to sharing knowladge about coding and programming.
 
-Please contact me if you want to build a website or application. Lets make something awesome together :).
+Please contact me if you want to build a website or application. Lets make something awesome together 🙂.
