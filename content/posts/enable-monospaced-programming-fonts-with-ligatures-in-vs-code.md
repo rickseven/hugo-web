@@ -14,9 +14,9 @@ name = "Moh Eric"
 
 Typographic ligatures are when multiple characters combine into a single unique character. Simplistically, when you type two or more characters and they magically attach to each other. Some fonts provide ligatures specifically for software development.
 
-Some free fonts that support ligatures are:
+Some free fonts that support ligatures are: [JetBrains Mono](), [Cascadia Code](), [Fira Code](), [Losevka](), [Hasklig](), [Monoid](), [Victor Mono]().
 
-This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
+This tutorial will show you how to setup font ligatures in Visual Studio Code. I assume that you have download and install ligature fonts on your local machine. Lets do it, you will need to edit the `settings.json` file. To do this open the VS Code settings (File -> Preferences -> Settings) select the Text Editor group and Font settings.
 
 We'll start with creating a new site with a very basic template. Then we'll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.
 
@@ -1041,7 +1041,6 @@ Now we'll update the post's version of the single template. If you remember Hugo
     
     {{ partial "footer.html" . }}
     :wq
-    
 
 Note that we removed the date logic from the default template and put it in the post template. Generate the web site and verify the results. Posts have dates and the about page doesn't.
 
