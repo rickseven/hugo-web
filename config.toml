@@ -61,8 +61,8 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  homeTitle = "Hello Guys,"
-  homeSubtitle = "welcome to my personal blog"
+  homeTitle = "Hello! I'm Moh Eric,"
+  homeSubtitle = "welcome to my personal website."
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -132,10 +132,10 @@ disableHugoGeneratorInject = false
 
   # Uncomment this if you want a portrait on your start page
   #
-  # [params.portrait]
-  #   path     = "/img/image.jpg"
-  #   alt      = "Portrait"
-  #   maxWidth = "50px"
+  [params.portrait]
+    path     = "/grey-512x512.png"
+    alt      = "Portrait"
+    maxWidth = "100px"
 
   # Social icons
   [[params.social]]
