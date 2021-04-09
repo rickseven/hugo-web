@@ -55,7 +55,7 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Coding and Programming Tutorials"
+  description = ""
   keywords = ""
   images = [""]
 
@@ -152,9 +152,12 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Coding & Programming Tutorials"
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    subtitle    = "Coding & Programming Tutorials"
+    description = "Coding and Programming Tutorials"
+    keywords    = "Moh Eric, Rickseven, Coding Tutorials, Programming Tutorials"
+    themeColor  = "#1b1c1d"
+    weight      = 1
+    copyright   = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
   [[menu.main]]
