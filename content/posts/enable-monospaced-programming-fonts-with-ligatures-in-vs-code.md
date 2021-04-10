@@ -1,6 +1,5 @@
 +++
 date = 2021-04-08T17:00:00Z
-draft = true
 linktitle = "Enable Monospaced Programming Fonts with Ligatures in VS Code"
 series = ["Hugo 101"]
 title = "Enable Monospaced Programming Fonts with Ligatures in VS Code"
