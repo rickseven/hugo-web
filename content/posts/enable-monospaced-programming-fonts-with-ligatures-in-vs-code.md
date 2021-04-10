@@ -13,7 +13,7 @@ name = "Moh Eric"
 
 Typographic ligatures are when multiple characters combine into a single unique character. Simplistically, when you type two or more characters and they magically attach to each other. Some fonts provide ligatures specifically for software development.
 
-Some free fonts that support ligatures are: [JetBrains Mono](), [Cascadia Code](), [Fira Code](), [Losevka](), [Hasklig](), [Monoid](), [Victor Mono]().
+Some free fonts that support ligatures are: [JetBrains Mono](https://www.jetbrains.com/lp/mono/ "JetBrains Mono"), [Cascadia Code](https://github.com/microsoft/cascadia-code "Cascadia Code"), [Fira Code](https://github.com/tonsky/FiraCode "Fira Code"), [Losevka](https://github.com/be5invis/Iosevka "Losevka"), [Hasklig](https://github.com/i-tu/Hasklig "Hasklig"), [Monoid](https://larsenwork.com/monoid/ "Monoid"), [Victor Mono](https://rubjo.github.io/victor-mono/ "Victor Mono").
 
 This tutorial will show you how to setup font ligatures in Visual Studio Code. I assume that you have download and install ligature fonts on your local machine. Lets do it, you will need to edit the `settings.json` file. To do this open the VS Code settings (File -> Preferences -> Settings) select the Text Editor and Font settings. Change font name with the font you would like to use. For example I change the font with `JetBrains Mono`.
 
