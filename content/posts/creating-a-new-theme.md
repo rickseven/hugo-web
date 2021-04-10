@@ -1,7 +1,7 @@
 ---
 author:
   name: Moh Eric
-date: 2021-04-08T17:00:00+00:00
+date: 2021-04-08T17:00:00.000+00:00
 linktitle: Creating a New Theme
 type:
 - post
