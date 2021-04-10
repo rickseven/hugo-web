@@ -1,5 +1,5 @@
 baseURL = "https://rickseven.netlify.app"
-title   = "Rickseven.com"
+title   = "RICKSEVEN"
 languageCode = "en-us"
 theme = "hugo-theme"
 
@@ -62,7 +62,7 @@ disableHugoGeneratorInject = false
   # Home subtitle of the index page.
   #
   homeTitle = "Hello! I'm Moh Eric,"
-  homeSubtitle = "welcome to my personal website."
+  homeSubtitle = "welcome to my personal website 🙂."
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
