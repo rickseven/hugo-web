@@ -1,0 +1,39 @@
+name: Deploy to Netlify
+
+on:
+  workflow_dispatch:  # Deploy manual melalui GitHub UI
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive  # Untuk theme yang menggunakan git submodule
+          fetch-depth: 0         # Fetch all history untuk .GitInfo dan .Lastmod
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.153.2'
+          extended: true
+      
+      - name: Build Hugo site
+        run: hugo --gc --minify --themesDir ./themes/hugo-theme/..
+      
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v2.1
+        with:
+          publish-dir: './public'
+          production-branch: main  # Branch yang akan di-deploy ke production
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: true
+          enable-commit-comment: true
+          overwrites-pull-request-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 5

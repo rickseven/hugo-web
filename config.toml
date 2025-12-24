@@ -1,4 +1,4 @@
-baseURL = "https://rickseven.netlify.app"
+baseURL = "https://rickseven.com"
 title   = "RICKSEVEN"
 languageCode = "en-us"
 theme = "hugo-theme"
@@ -6,7 +6,8 @@ theme = "hugo-theme"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-paginate  = 10
+[pagination]
+  pagerSize = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
@@ -36,22 +37,28 @@ disableHugoGeneratorInject = false
 [permalinks]
   posts = "/posts/:title/"
 
-[author]
-  name = "Moh Eric"
-
-[blackfriday]
-  hrefTargetBlank = true
-
 [taxonomies]
   tag      = "tags"
   category = "categories"
   series   = "series"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    style = "monokai"
 
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
+
+  # Author info
+  [params.author]
+    name = "Moh Eric"
 
   # Metadata mostly used in document's head
   # 
@@ -168,3 +175,7 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+  [[menu.main]]
+    identifier = "privacy"
+    name       = "Privacy"
+    url        = "privacy/"

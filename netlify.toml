@@ -3,5 +3,6 @@
   command = "hugo --gc --minify --themesDir ./themes/hugo-theme/.."
   
 [build.environment]
-  HUGO_VERSION = "0.81.0"
+  HUGO_VERSION = "0.153.2"
+  HUGO_EXTENDED = "true"
   HUGO_BASEURL = "/"
