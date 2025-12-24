@@ -1,0 +1,31 @@
+{{ define "main" }}
+    {{ $paginator := .Paginate .Data.Pages }}
+    
+    <main class="posts">
+        <h1>{{ .Title }}</h1>
+
+        {{ partial "search-form.html" . }}
+        <br/>
+        {{ if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{ end }}
+
+        <ul class="posts-list">
+            {{ range $paginator.Pages }}
+                <li class="post-item">
+                    <a href="{{.Permalink}}">
+                        <span class="post-title">{{.Title}}</span>
+                        <span class="post-day">
+                            {{ if .Site.Params.dateform }}
+                                {{ .Date.Format .Site.Params.dateform }}
+                            {{ else }}
+                                {{ .Date.Format "Jan 2, 2006"}}
+                            {{ end }}
+                        </span>
+                    </a>
+                </li>
+            {{ end }}
+        </ul>
+    {{ partial "pagination-list.html" . }}
+    </main>
+{{ end }}

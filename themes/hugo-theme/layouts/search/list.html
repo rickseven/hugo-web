@@ -1,0 +1,17 @@
+{{ define "main" }}
+    <main class="posts">
+        <h1>{{ .Title }}</h1>
+
+        {{ partial "search-form.html" . }}
+        <br/>
+        {{ if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{ end }}
+
+        <ul class="posts-list" id="results">
+            <li>
+                Enter a keyword above to search this site.
+            </li>
+        </ul>
+    </main>
+{{ end }}

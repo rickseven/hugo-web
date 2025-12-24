@@ -1,0 +1,24 @@
+input{
+    color: $dark-color;
+    background-color: $dark-background;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 2px solid $dark-border-color;
+    box-shadow: 3px 4px 0 $dark-background-secondary;
+    height: 30px;
+    padding: 0 .5em;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+input[type=submit]:hover {
+    transform: translate(2px,3px);
+    box-shadow: none;
+}
