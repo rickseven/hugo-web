@@ -179,3 +179,7 @@ disableHugoGeneratorInject = false
     identifier = "privacy"
     name       = "Privacy"
     url        = "privacy/"
+  [[menu.main]]
+    identifier = "terms"
+    name       = "Terms"
+    url        = "terms/"
