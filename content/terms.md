@@ -1,6 +1,7 @@
 ---
 title: "Terms and Conditions"
-date: 2025-12-24T00:00:00+07:00
+description: "Terms and conditions for using Rickseven website and services. Read our terms of service, user responsibilities, and legal agreements."
+date: 2026-01-29T10:00:00Z
 draft: false
 ---
 

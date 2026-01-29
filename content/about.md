@@ -1,7 +1,8 @@
 +++
 aliases = ["about-us", "about-hugo", "contact"]
-date = 2021-04-08T17:00:00Z
+date = 2026-01-29T10:00:00Z
 title = "About"
+description = "Software engineer based in Jakarta, Indonesia. Specializing in backend development, data engineering, and cloud infrastructure with .NET, Go, Flutter, and Vue.js."
 [author]
 name = "Moh Eric"
 

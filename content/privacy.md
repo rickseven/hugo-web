@@ -1,6 +1,7 @@
 ---
 title: "Privacy Policy"
-date: 2025-12-24T00:00:00+07:00
+description: "Privacy policy for Rickseven. Learn how we collect, use, and protect your personal information when you visit our website."
+date: 2026-01-29T10:00:00Z
 draft: false
 ---
 
