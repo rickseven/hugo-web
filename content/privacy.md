@@ -6,7 +6,7 @@ draft: false
 
 **Last updated: December 24, 2025**
 
-RICKSEVEN ("we", "our", or "us") operates https://rickseven.com (the "Site"). This page informs you of our policies regarding the collection, use, and disclosure of personal information we receive from users of the Site.
+Rickseven ("we", "our", or "us") operates https://rickseven.com (the "Site"). This page informs you of our policies regarding the collection, use, and disclosure of personal information we receive from users of the Site.
 
 ## Information Collection and Use
 
@@ -86,7 +86,7 @@ If you have any questions about this Privacy Policy, please contact us:
 
 ## Additional Information for Mobile Applications
 
-If you are using any mobile applications associated with RICKSEVEN:
+If you are using any mobile applications associated with Rickseven:
 
 ### Permissions
 

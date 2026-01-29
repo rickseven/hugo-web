@@ -1,5 +1,5 @@
 baseURL = "https://rickseven.com"
-title   = "RICKSEVEN"
+title   = "Rickseven"
 languageCode = "en-us"
 theme = "hugo-theme"
 
@@ -159,9 +159,9 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle    = "Coding & Programming Tutorials"
-    description = "Coding and Programming Tutorials"
-    keywords    = "Moh Eric, Rickseven, Coding Tutorials, Programming Tutorials"
+    subtitle    = "Code, Learn, Build"
+    description = "Software engineering tutorials and practical guides for modern development"
+    keywords    = "Moh Eric, Rickseven, Software Engineering, Backend Development, Mobile Development, Programming Tutorials"
     themeColor  = "#1b1c1d"
     weight      = 1
     copyright   = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'

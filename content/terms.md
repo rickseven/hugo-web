@@ -6,7 +6,7 @@ draft: false
 
 **Last updated: December 24, 2025**
 
-Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the https://rickseven.com website and any associated mobile applications (collectively, the "Service") operated by RICKSEVEN ("us", "we", or "our").
+Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the https://rickseven.com website and any associated mobile applications (collectively, the "Service") operated by Rickseven ("us", "we", or "our").
 
 Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users, and others who access or use the Service.
 
@@ -22,7 +22,7 @@ You agree not to disclose your password to any third party. You must notify us i
 
 ## Intellectual Property
 
-The Service and its original content, features, and functionality are and will remain the exclusive property of RICKSEVEN and its licensors. The Service is protected by copyright, trademark, and other laws of both Indonesia and foreign countries. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of RICKSEVEN.
+The Service and its original content, features, and functionality are and will remain the exclusive property of Rickseven and its licensors. The Service is protected by copyright, trademark, and other laws of both Indonesia and foreign countries. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of Rickseven.
 
 ## User Content
 
@@ -39,9 +39,9 @@ You may use the Service only for lawful purposes and in accordance with these Te
 - In any way that violates any applicable national or international law or regulation
 - To exploit, harm, or attempt to exploit or harm minors in any way
 - To transmit, or procure the sending of, any advertising or promotional material, including any "junk mail", "chain letter", "spam", or any other similar solicitation
-- To impersonate or attempt to impersonate RICKSEVEN, a RICKSEVEN employee, another user, or any other person or entity
+- To impersonate or attempt to impersonate Rickseven, a Rickseven employee, another user, or any other person or entity
 - In any way that infringes upon the rights of others, or in any way is illegal, threatening, fraudulent, or harmful
-- To engage in any other conduct that restricts or inhibits anyone's use or enjoyment of the Service, or which, as determined by us, may harm RICKSEVEN or users of the Service or expose them to liability
+- To engage in any other conduct that restricts or inhibits anyone's use or enjoyment of the Service, or which, as determined by us, may harm Rickseven or users of the Service or expose them to liability
 
 Additionally, you agree not to:
 
@@ -59,9 +59,9 @@ We may use third-party Service Providers to monitor and analyze the use of our S
 
 ## Links to Other Websites
 
-Our Service may contain links to third-party websites or services that are not owned or controlled by RICKSEVEN.
+Our Service may contain links to third-party websites or services that are not owned or controlled by Rickseven.
 
-RICKSEVEN has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third-party websites or services. You further acknowledge and agree that RICKSEVEN shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods, or services available on or through any such websites or services.
+Rickseven has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third-party websites or services. You further acknowledge and agree that Rickseven shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods, or services available on or through any such websites or services.
 
 We strongly advise you to read the terms and conditions and privacy policies of any third-party websites or services that you visit.
 
@@ -69,7 +69,7 @@ We strongly advise you to read the terms and conditions and privacy policies of 
 
 The Service is provided on an "AS IS" and "AS AVAILABLE" basis. The Service is provided without warranties of any kind, whether express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement, or course of performance.
 
-RICKSEVEN, its subsidiaries, affiliates, and its licensors do not warrant that:
+Rickseven, its subsidiaries, affiliates, and its licensors do not warrant that:
 
 - The Service will function uninterrupted, secure, or available at any particular time or location
 - Any errors or defects will be corrected
@@ -78,7 +78,7 @@ RICKSEVEN, its subsidiaries, affiliates, and its licensors do not warrant that:
 
 ## Limitation of Liability
 
-In no event shall RICKSEVEN, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from:
+In no event shall Rickseven, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from:
 
 - Your access to or use of or inability to access or use the Service
 - Any conduct or content of any third party on the Service
@@ -89,7 +89,7 @@ Whether based on warranty, contract, tort (including negligence), or any other l
 
 ## Indemnification
 
-You agree to defend, indemnify, and hold harmless RICKSEVEN and its licensee and licensors, and their employees, contractors, agents, officers, and directors, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney's fees), resulting from or arising out of:
+You agree to defend, indemnify, and hold harmless Rickseven and its licensee and licensors, and their employees, contractors, agents, officers, and directors, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney's fees), resulting from or arising out of:
 
 - Your use and access of the Service
 - Your violation of any term of these Terms
@@ -117,7 +117,7 @@ By continuing to access or use our Service after those revisions become effectiv
 
 ## Mobile Applications
 
-If you are using any mobile applications associated with RICKSEVEN, the following additional terms apply:
+If you are using any mobile applications associated with Rickseven, the following additional terms apply:
 
 ### License Grant
 
@@ -127,7 +127,7 @@ Subject to your compliance with these Terms, we grant you a limited, non-exclusi
 
 If you download the application from the Apple App Store or Google Play Store, you acknowledge and agree that:
 
-- These Terms are between you and RICKSEVEN only, not with Apple Inc. or Google LLC
+- These Terms are between you and Rickseven only, not with Apple Inc. or Google LLC
 - The app store provider has no obligation to provide maintenance and support services
 - In the event of any failure of the application to conform to any applicable warranty, you may notify the app store provider, and they may refund the purchase price (if any)
 - The app store provider is not responsible for addressing any claims relating to the application
