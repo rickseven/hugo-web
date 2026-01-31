@@ -80,6 +80,39 @@ hugo --gc --minify
 hugo --gc --minify --themesDir ./themes/hugo-theme/..
 ```
 
+### Clean dan Build
+
+**Windows (CMD):**
+```cmd
+# Clean (hapus folder public) dan build
+rmdir /s /q public & hugo
+
+# Atau menggunakan flag cleanDestinationDir
+hugo --cleanDestinationDir
+
+# Step by step
+rmdir /s /q public
+hugo
+```
+
+**Windows (PowerShell):**
+```powershell
+# Clean dan build
+Remove-Item -Recurse -Force public; hugo
+
+# Atau menggunakan flag cleanDestinationDir
+hugo --cleanDestinationDir
+```
+
+**macOS/Linux:**
+```bash
+# Clean dan build
+rm -rf public && hugo
+
+# Atau menggunakan flag cleanDestinationDir
+hugo --cleanDestinationDir
+```
+
 ### Update Theme
 
 Jika theme adalah git submodule:

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Download aplikasi dari Google Play Store">
+    <title>Download App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+        }
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 16px;
+            background: #000000;
+            color: #ffffff;
+            padding: 14px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .download-btn:hover {
+            background: #2a2a2a;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+            transform: translateY(-2px);
+        }
+        .download-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .icon-wrapper {
+            display: flex;
+            align-items: center;
+        }
+        .play-icon {
+            width: 32px;
+            height: 32px;
+        }
+        .text-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            line-height: 1.2;
+        }
+        .get-it-on {
+            font-size: 11px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            opacity: 0.9;
+        }
+        .google-play {
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: -0.3px;
+        }
+        .trust-badge {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            color: #5f6368;
+            font-size: 13px;
+        }
+        .shield-icon {
+            width: 16px;
+            height: 16px;
+            color: #34A853;
+        }
+        .trust-text {
+            font-weight: 500;
+        }
+        @media (max-width: 600px) {
+            .download-btn {
+                padding: 12px 24px;
+                gap: 14px;
+            }
+            .play-icon {
+                width: 28px;
+                height: 28px;
+            }
+            .get-it-on {
+                font-size: 10px;
+            }
+            .google-play {
+                font-size: 18px;
+            }
+            .trust-badge {
+                font-size: 12px;
+                margin-top: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="" id="playStoreLink" class="download-btn" aria-label="Get it on Google Play">
+            <div class="icon-wrapper">
+                <svg class="play-icon" aria-hidden="true" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" d="M0,0h40v40H0V0z"></path>
+                    <g>
+                        <path d="M19.7,19.2L4.3,35.3c0,0,0,0,0,0c0.5,1.7,2.1,3,4,3c0.8,0,1.5-0.2,2.1-0.6l0,0l17.4-9.9L19.7,19.2z" fill="#EA4335"></path>
+                        <path d="M35.3,16.4L35.3,16.4l-7.5-4.3l-8.4,7.4l8.5,8.3l7.5-4.2c1.3-0.7,2.2-2.1,2.2-3.6C37.5,18.5,36.6,17.1,35.3,16.4z" fill="#FBBC04"></path>
+                        <path d="M4.3,4.7C4.2,5,4.2,5.4,4.2,5.8v28.5c0,0.4,0,0.7,0.1,1.1l16-15.7L4.3,4.7z" fill="#4285F4"></path>
+                        <path d="M19.8,20l8-7.9L10.5,2.3C9.9,1.9,9.1,1.7,8.3,1.7c-1.9,0-3.6,1.3-4,3c0,0,0,0,0,0L19.8,20z" fill="#34A853"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="text-wrapper">
+                <span class="get-it-on">Get it on</span>
+                <span class="google-play">Google Play</span>
+            </div>
+        </a>
+        
+        <div class="trust-badge">
+            <svg class="shield-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+            </svg>
+            <span class="trust-text">Aman & Terpercaya</span>
+            <span>• Verified by Google</span>
+        </div>
+    </div>
+
+    <script>
+        // Get URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const appId = urlParams.get('id');
+        
+        // Set the link
+        const playStoreLink = document.getElementById('playStoreLink');
+        if (appId) {
+            // If id parameter exists, go to specific app
+            playStoreLink.href = 'https://play.google.com/store/apps/details?id=' + appId;
+        } else {
+            // If no parameter, go to developer page
+            playStoreLink.href = 'https://play.google.com/store/apps/developer?id=Rickseven+Studio';
+        }
+    </script>
+</body>
+</html>
