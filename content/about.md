@@ -10,21 +10,21 @@ name = "Moh Eric"
 
 ## Hi, I'm Moh Eric
 
-I'm a software engineer based in Jakarta, Indonesia, with a passion for building scalable systems and exploring new technologies. I focus on backend development, data engineering, and cloud infrastructure.
+I'm a software engineer based in Jakarta, Indonesia. I love building scalable systems and exploring new technologies—especially when it comes to backend development, data engineering, and cloud infrastructure.
 
 ## What I Do
 
-I work across the full stack, but I'm particularly interested in:
+I work across the full stack, but here's what really gets me excited:
 
-- **Backend Development**: Building APIs and microservices with .NET/C#, Go, Python, and Java Spring Boot
-- **Frontend Development**: Creating modern web apps with Vue.js and TypeScript
-- **Mobile Development**: Cross-platform apps with Flutter/Dart and native Android with Kotlin
+- **Backend Development**: Crafting APIs and microservices with .NET/C#, Go, Python, and Java Spring Boot
+- **Frontend Development**: Building modern web apps using Vue.js and TypeScript
+- **Mobile Development**: Creating cross-platform apps with Flutter/Dart and native Android apps with Kotlin
 - **Data Engineering**: Working with CDC (Change Data Capture), Kafka, and real-time data pipelines
 - **Cloud & DevOps**: Docker, Terraform, and infrastructure automation
 
 ## Tech Stack
 
-Here are some technologies I work with regularly:
+Here's what I work with on a regular basis:
 
 **Languages**: C#, Go, Python, Dart, TypeScript, Kotlin, Java, R
 
@@ -40,25 +40,25 @@ Here are some technologies I work with regularly:
 
 ## Open Source
 
-I believe in learning by doing and sharing knowledge. You can find my projects and experiments on [GitHub](https://github.com/rickseven), including:
+I'm a big believer in learning by doing and sharing what I know. Check out my projects and experiments on [GitHub](https://github.com/rickseven), where you'll find:
 
 - CDC pipelines with Debezium and Kafka
 - REST API samples in various languages
 - Android development patterns
 - Data analysis and visualization projects
 
-## This Blog
+## About This Blog
 
-This website is where I document what I learn and share tutorials on software development. I write about practical implementations, best practices, and solutions to problems I've encountered.
+This is where I document my learning journey and share practical tutorials on software development. I write about real-world implementations, best practices, and solutions to problems I've actually faced.
 
-If you find something useful here, feel free to share it or reach out.
+If you find something helpful here, feel free to share it or drop me a message!
 
-## Get in Touch
+## Let's Connect
 
-I'm always open to discussing technology, collaborating on projects, or just having a conversation about software engineering.
+I'm always up for discussing tech, collaborating on interesting projects, or just chatting about software engineering over coffee (virtual or otherwise).
 
 - **Email**: [maseric7@gmail.com](mailto:maseric7@gmail.com)
 - **GitHub**: [github.com/rickseven](https://github.com/rickseven)
 - **LinkedIn**: [linkedin.com/in/moheric](https://www.linkedin.com/in/moheric)
 
-Let's build something great together.
+Let's build something awesome together!
